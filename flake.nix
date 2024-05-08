@@ -19,7 +19,7 @@
     in {
       packages.${system}.default = pkgs.buildEnv {
         name = "tools";
-        paths = with pkgs; [ nix-direnv nixfmt-classic cachix xh fd slack tidal-hifi spotify discord ];
+        paths = with pkgs; [ nix-direnv nixfmt-classic cachix xh fd slack spotify discord zed-editor ];
       };
     };
 }
