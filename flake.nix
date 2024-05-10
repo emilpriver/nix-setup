@@ -19,7 +19,25 @@
     in {
       packages.${system}.default = pkgs.buildEnv {
         name = "tools";
-        paths = with pkgs; [ nix-direnv nixfmt-classic cachix xh fd slack spotify discord zed-editor neovim opam ];
+        paths = with pkgs; [
+        nix-direnv
+        nixfmt-classic
+        cachix
+        xh
+        fd
+        
+        ## Programs
+        slack
+        spotify
+        discord
+
+        ## IDE
+        zed-editor
+        neovim
+
+        ## Programing
+        opam
+        ];
       };
     };
 }
