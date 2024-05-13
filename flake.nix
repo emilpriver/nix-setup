@@ -16,28 +16,35 @@
         system = "${system}";
         config.allowUnfree = true;
       };
-    in {
+    in
+    {
+      formatter.${system} = nixpkgs.legacyPackages.x86_64-linux.nixpkgs-fmt;
       packages.${system}.default = pkgs.buildEnv {
         name = "tools";
         paths = with pkgs; [
-        nix-direnv
-        nixfmt-classic
-        cachix
-        xh
-        fd
+          nix-direnv
+          nixfmt-classic
+          cachix
+          xh
+          fd
+
+          # Programs
+          slack spotify discord brave
+
+          #ide
+          zed-editor neovim
+
+          # ocaml
+          opam dune_3 ocaml
         
-        ## Programs
-        slack
-        spotify
-        discord
-        brave
+          # golang
+          go gofumpt
 
-        ## IDE
-        zed-editor
-        neovim
+          # rust
+          rustup
 
-        ## Programing
-        opam
+          # docker
+          docker docker-compose
         ];
       };
     };
