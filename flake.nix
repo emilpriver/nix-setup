@@ -30,6 +30,7 @@
         slack
         spotify
         discord
+        brave
 
         ## IDE
         zed-editor
