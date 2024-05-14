@@ -29,13 +29,13 @@
           fd
 
           # Programs
-          slack spotify discord brave
+          slack spotify discord brave signal-desktop
 
           #ide
-          zed-editor neovim
+          zed-editor neovim bruno
 
           # ocaml
-          opam dune_3 ocaml
+          opam dune_3 ocaml ocamlPackages.findlib
         
           # golang
           go gofumpt
