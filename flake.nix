@@ -29,19 +29,22 @@
           fd
 
           # Programs
-          slack spotify discord brave signal-desktop
+          slack discord signal-desktop charm-freeze
 
           #ide
           zed-editor neovim bruno
 
           # ocaml
-          opam dune_3 ocaml ocamlPackages.findlib
+          opam dune_3 ocaml ocamlPackages.findlib dune-release
         
           # golang
           go gofumpt
 
           # rust
           rustup
+
+          # Javascript
+          nodePackages_latest.pnpm
 
           # docker
           docker docker-compose
