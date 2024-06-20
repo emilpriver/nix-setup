@@ -27,6 +27,7 @@
           cachix
           xh
           fd
+          tree
 
           # Programs
           slack discord signal-desktop charm-freeze
