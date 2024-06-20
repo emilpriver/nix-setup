@@ -28,9 +28,10 @@
           xh
           fd
           tree
+          turso-cli
 
           # Programs
-          slack discord signal-desktop charm-freeze
+          slack discord signal-desktop charm-freeze hoppscotch
 
           #ide
           zed-editor neovim bruno
