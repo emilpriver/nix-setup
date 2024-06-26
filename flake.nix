@@ -46,7 +46,7 @@
           rustup
 
           # Javascript
-          nodePackages_latest.pnpm
+          nodePackages_latest.pnpm nodejs_22
 
           # docker
           docker docker-compose
