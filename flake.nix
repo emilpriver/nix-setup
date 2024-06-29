@@ -31,7 +31,7 @@
           turso-cli
 
           # Programs
-          slack discord signal-desktop charm-freeze hoppscotch tor-browser
+          slack discord signal-desktop charm-freeze hoppscotch tor-browser gitkraken git-cliff 
 
           #ide
           zed-editor neovim bruno
