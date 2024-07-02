@@ -29,6 +29,7 @@
           fd
           tree
           turso-cli
+          graphite-cli
 
           # Programs
           slack discord signal-desktop charm-freeze hoppscotch tor-browser gitkraken git-cliff 
