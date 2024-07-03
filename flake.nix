@@ -30,6 +30,7 @@
           tree
           turso-cli
           bun
+          ncdu
 
           # Programs
           slack discord signal-desktop charm-freeze hoppscotch tor-browser gitkraken git-cliff 
