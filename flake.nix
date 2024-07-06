@@ -33,7 +33,7 @@
           ncdu
 
           # Programs
-          slack discord signal-desktop charm-freeze hoppscotch tor-browser gitkraken git-cliff 
+          slack discord signal-desktop charm-freeze hoppscotch tor-browser gitkraken git-cliff terraform 
 
           #ide
           zed-editor neovim bruno
