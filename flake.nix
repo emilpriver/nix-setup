@@ -31,6 +31,7 @@
           turso-cli
           bun
           ncdu
+          google-cloud-sql-proxy
 
           # Programs
           slack discord signal-desktop charm-freeze hoppscotch tor-browser gitkraken git-cliff terraform 
