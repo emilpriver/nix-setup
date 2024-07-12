@@ -32,15 +32,16 @@
           bun
           ncdu
           google-cloud-sql-proxy
+          fzf
 
           # Programs
-          slack discord signal-desktop charm-freeze hoppscotch tor-browser gitkraken git-cliff terraform 
+          slack discord signal-desktop charm-freeze hoppscotch tor-browser gitkraken git-cliff terraform postman 
 
           #ide
           zed-editor neovim bruno
 
           # ocaml
-          opam dune_3 ocaml ocamlPackages.findlib dune-release
+          dune_3 ocaml ocamlPackages.findlib dune-release
         
           # golang
           go gofumpt
