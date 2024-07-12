@@ -41,7 +41,7 @@
           zed-editor neovim bruno
 
           # ocaml
-          dune_3 ocaml ocamlPackages.findlib dune-release
+          dune_3 ocaml ocamlPackages.findlib dune-release ocamlPackages.ocaml-lsp
         
           # golang
           go gofumpt
