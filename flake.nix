@@ -41,7 +41,7 @@
 
         # Programs
         slack
-        discord
+        #discord
         signal-desktop
         charm-freeze
         hoppscotch
