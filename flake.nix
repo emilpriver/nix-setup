@@ -52,13 +52,13 @@
         postman
 
         #ide
-        zed-editor
+        #zed-editor
         neovim
         bruno
 
         # ocaml
         ocamlPkgs.dune_3
-        ocamlPkgs.opam
+        opam
         ocamlPkgs.ocaml
         ocamlPkgs.ocamlPackages.findlib
         ocamlPkgs.dune-release
