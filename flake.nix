@@ -65,6 +65,10 @@
         ocamlPkgs.ocamlPackages.ocaml-lsp
         ocamlPkgs.ocamlPackages.ocamlformat
 
+        #elixir 
+        elixir
+        elixir-ls
+
         # golang
         go
         gofumpt
