@@ -67,7 +67,6 @@
 
         #elixir 
         elixir
-        elixir-ls
 
         # golang
         go
