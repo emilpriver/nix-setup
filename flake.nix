@@ -38,10 +38,11 @@
         ncdu
         google-cloud-sql-proxy
         fzf
+        inotify-tools
 
         # Programs
         slack
-        #discord
+        # discord
         signal-desktop
         charm-freeze
         hoppscotch
@@ -51,8 +52,8 @@
         terraform
         postman
 
-        #ide
-        #zed-editor
+        # ide
+        # zed-editor
         neovim
         bruno
 
