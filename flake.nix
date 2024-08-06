@@ -39,6 +39,8 @@
         google-cloud-sql-proxy
         fzf
         inotify-tools
+        flyctl
+        fastfetch
 
         # Programs
         slack
