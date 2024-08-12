@@ -68,6 +68,9 @@
         ocamlPkgs.ocamlPackages.ocaml-lsp
         ocamlPkgs.ocamlPackages.ocamlformat
 
+        # python
+        pyenv
+
         #elixir 
         elixir
 
