@@ -71,9 +71,6 @@
         # python
         pyenv
 
-        #elixir 
-        elixir
-
         # golang
         go
         gofumpt
@@ -88,6 +85,14 @@
         # docker
         docker
         docker-compose
+
+        # Elixir & erlang
+        elixir
+        erlang
+        rebar3
+
+        # gleam
+        gleam
       ];
     };
   };
