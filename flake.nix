@@ -41,6 +41,7 @@
         inotify-tools
         flyctl
         fastfetch
+        lighttpd
 
         # Programs
         slack
