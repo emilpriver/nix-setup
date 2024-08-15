@@ -42,6 +42,7 @@
         flyctl
         fastfetch
         lighttpd
+        git-standup
 
         # Programs
         slack
