@@ -43,6 +43,7 @@
         fastfetch
         lighttpd
         git-standup
+        optifine
 
         # Programs
         slack
@@ -95,6 +96,9 @@
 
         # gleam
         gleam
+        
+        # Java
+        jre8
       ];
     };
   };
