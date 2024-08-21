@@ -44,6 +44,7 @@
         lighttpd
         git-standup
         optifine
+        xh
 
         # Programs
         slack
