@@ -57,6 +57,7 @@
         git-cliff
         terraform
         postman
+        git-lfs
 
         # ide
         # zed-editor
@@ -97,9 +98,12 @@
 
         # gleam
         gleam
-        
+
         # Java
         jre8
+
+        # zig
+        zig
       ];
     };
   };
