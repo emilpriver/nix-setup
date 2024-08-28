@@ -45,6 +45,7 @@
         git-standup
         optifine
         xh
+        jira-cli-go
 
         # Programs
         slack
