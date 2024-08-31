@@ -10,11 +10,13 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     ocamlOverlay.url = "github:nix-ocaml/nix-overlays";
+    zen-browser.url = "github:MarceColl/zen-browser-flake";
   };
   outputs = {
     self,
     nixpkgs,
     ocamlOverlay,
+    zen-browser,
   }: let
     system = "x86_64-linux";
     pkgs = import nixpkgs {
@@ -45,8 +47,9 @@
         git-standup
         optifine
         xh
-        jira-cli-go
-
+        zen-browser.packages."${system}".default
+        heroic
+  
         # Programs
         slack
         # discord
@@ -105,6 +108,9 @@
 
         # zig
         zig
+
+        # PHP
+        php83Packages.composer
       ];
     };
   };
