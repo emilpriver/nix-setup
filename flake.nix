@@ -37,6 +37,7 @@
         tree
         turso-cli
         bun
+        yarn
         ncdu
         google-cloud-sql-proxy
         fzf
@@ -49,7 +50,7 @@
         xh
         zen-browser.packages."${system}".default
         heroic
-  
+
         # Programs
         slack
         # discord
@@ -67,15 +68,14 @@
         # zed-editor
         neovim
         bruno
+        nodePackages_latest.wrangler
 
         # ocaml
         ocamlPkgs.dune_3
-        opam
         ocamlPkgs.ocaml
-        ocamlPkgs.ocamlPackages.findlib
         ocamlPkgs.dune-release
+        ocamlPkgs.ocamlformat
         ocamlPkgs.ocamlPackages.ocaml-lsp
-        ocamlPkgs.ocamlPackages.ocamlformat
 
         # python
         pyenv
@@ -90,6 +90,7 @@
         # Javascript
         nodePackages_latest.pnpm
         nodejs_22
+        typescript
 
         # docker
         docker
