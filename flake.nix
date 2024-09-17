@@ -68,12 +68,12 @@
         # zed-editor
         neovim
         bruno
+        kitty
         nodePackages_latest.wrangler
 
         # ocaml
-        ocamlPkgs.dune_3
         ocamlPkgs.ocaml
-        ocamlPkgs.dune-release
+        ocamlPkgs.dune-dev
         ocamlPkgs.ocamlformat
         ocamlPkgs.ocamlPackages.ocaml-lsp
 
