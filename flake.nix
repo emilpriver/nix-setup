@@ -63,7 +63,6 @@
         terraform
         postman
         git-lfs
-        beekeeper-studio
 
         # ide
         # zed-editor
