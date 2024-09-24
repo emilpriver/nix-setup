@@ -50,6 +50,7 @@
         xh
         zen-browser.packages."${system}".default
         heroic
+        virtualenv
 
         # Programs
         slack
