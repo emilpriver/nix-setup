@@ -51,6 +51,8 @@
         zen-browser.packages."${system}".default
         heroic
         virtualenv
+        termdbms
+        jetbrains.datagrip
 
         # Programs
         slack
@@ -83,6 +85,7 @@
 
         # golang
         go
+        gopls
         gofumpt
 
         # rust
