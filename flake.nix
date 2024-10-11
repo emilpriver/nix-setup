@@ -53,6 +53,7 @@
         virtualenv
         termdbms
         jetbrains.datagrip
+        ngrok
 
         # Programs
         slack
