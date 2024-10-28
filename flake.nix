@@ -67,6 +67,7 @@
         terraform
         postman
         git-lfs
+        jetbrains.datagrip
 
         # ide
         # zed-editor
