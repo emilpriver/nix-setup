@@ -10,7 +10,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     ocamlOverlay.url = "github:nix-ocaml/nix-overlays";
-    zen-browser.url = "github:MarceColl/zen-browser-flake";
+    zen-browser.url = "github:0xc000022070/zen-browser-flake";
   };
   outputs = {
     self,
@@ -48,7 +48,7 @@
         git-standup
         optifine
         xh
-        zen-browser.packages."${system}".default
+        zen-browser.packages."${system}".specific
         heroic
         virtualenv
         termdbms
