@@ -54,6 +54,7 @@
         termdbms
         jetbrains.datagrip
         ngrok
+        jujutsu
 
         # Programs
         slack
@@ -78,8 +79,8 @@
 
         # ocaml
         ocamlPkgs.ocaml
-        ocamlPkgs.dune-dev
         ocamlPkgs.ocamlformat
+        ocamlPkgs.opam
         ocamlPkgs.ocamlPackages.ocaml-lsp
 
         # python
