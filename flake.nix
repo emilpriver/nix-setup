@@ -10,13 +10,11 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     ocamlOverlay.url = "github:nix-ocaml/nix-overlays";
-    zen-browser.url = "github:0xc000022070/zen-browser-flake";
   };
   outputs = {
     self,
     nixpkgs,
     ocamlOverlay,
-    zen-browser,
   }: let
     system = "x86_64-linux";
     pkgs = import nixpkgs {
@@ -48,13 +46,13 @@
         git-standup
         optifine
         xh
-        zen-browser.packages."${system}".specific
         heroic
         virtualenv
         termdbms
         jetbrains.datagrip
         ngrok
         jujutsu
+        yq
 
         # Programs
         slack
