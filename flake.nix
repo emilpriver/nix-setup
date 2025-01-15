@@ -58,6 +58,7 @@
         ngrok
         jujutsu
         yq
+        television
 
         # Programs
         slack
