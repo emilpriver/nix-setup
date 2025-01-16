@@ -59,6 +59,7 @@
         jujutsu
         yq
         television
+        pgcli
 
         # Programs
         slack
