@@ -60,6 +60,7 @@
         yq
         television
         pgcli
+        tidal-hifi
 
         # Programs
         slack
