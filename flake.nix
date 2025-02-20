@@ -81,7 +81,6 @@
         neovim
         bruno
         kitty
-        nodePackages_latest.wrangler
 
         # ocaml
         ocamlPkgs.ocaml
