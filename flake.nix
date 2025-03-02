@@ -105,7 +105,6 @@
         typescript
 
         # docker
-        docker
         docker-compose
 
         # Elixir & erlang
