@@ -61,6 +61,7 @@
         television
         pgcli
         tidal-hifi
+        aider-chat
 
         # Programs
         slack
