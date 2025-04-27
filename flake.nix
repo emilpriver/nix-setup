@@ -54,7 +54,6 @@
         heroic
         virtualenv
         termdbms
-        jetbrains.datagrip
         ngrok
         jujutsu
         yq
@@ -75,7 +74,6 @@
         terraform
         postman
         git-lfs
-        jetbrains.datagrip
 
         # ide
         # zed-editor
