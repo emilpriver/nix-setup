@@ -61,6 +61,7 @@
         pgcli
         tidal-hifi
         aider-chat
+        sunshine
 
         # Programs
         slack
