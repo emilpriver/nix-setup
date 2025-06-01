@@ -62,6 +62,8 @@
         tidal-hifi
         aider-chat
         sunshine
+        uv
+        playwright
 
         # Programs
         slack
