@@ -10,15 +10,11 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     ocamlOverlay.url = "github:nix-ocaml/nix-overlays";
-  ghostty = {
-      url = "github:ghostty-org/ghostty";
-    };
  };
   outputs = {
     self,
     nixpkgs,
     ocamlOverlay,
-    ghostty,
   }: let
     system = "x86_64-linux";
     pkgs = import nixpkgs {
@@ -44,7 +40,6 @@
         google-cloud-sql-proxy
         fzf
         inotify-tools
-        ghostty.packages.${system}.default
         flyctl
         fastfetch
         lighttpd
@@ -64,6 +59,7 @@
         sunshine
         uv
         playwright
+        chatterino7
 
         # Programs
         slack
@@ -85,10 +81,10 @@
         kitty
 
         # ocaml
-        ocamlPkgs.ocaml
-        ocamlPkgs.ocamlformat
-        ocamlPkgs.opam
-        ocamlPkgs.ocamlPackages.ocaml-lsp
+        # ocamlPkgs.ocaml
+        # ocamlPkgs.ocamlformat
+        # ocamlPkgs.opam
+        # ocamlPkgs.ocamlPackages.ocaml-lsp
 
         # python
         pyenv
