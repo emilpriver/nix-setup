@@ -77,7 +77,6 @@
         # ide
         # zed-editor
         neovim
-        bruno
         kitty
 
         # ocaml
